@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.users-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 55rem;
+  margin: 2rem auto;
+  padding: 1rem 0.5rem;
+  border: solid 0.5px black;
+  box-shadow: 1px 1px 15px black;
+}
