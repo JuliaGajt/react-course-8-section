@@ -1,12 +1,22 @@
 import { useState } from "react";
 import "./App.css";
-import UserList from "./components/UserList/UserList.jsx";
-import UserInput from "./components/UserInput/UserInput.jsx";
+import UserList from "./components/Users/UserList.jsx";
+import UserInput from "./components/Users/UserInput.jsx";
 
 function App() {
   let users = [
     { id: "e1", name: "Anne", age: 12 },
     { id: "e2", name: "Andre", age: 21 },
+    { id: "e3", name: "Anne", age: 12 },
+    { id: "e4", name: "Andre", age: 21 },
+    { id: "e5", name: "Anne", age: 12 },
+    { id: "e6", name: "Andre", age: 21 },
+    { id: "e7", name: "Anne", age: 12 },
+    { id: "e8", name: "Andre", age: 21 },
+    { id: "e9", name: "Anne", age: 12 },
+    { id: "e21", name: "Andre", age: 21 },
+    { id: "e11", name: "Anne", age: 12 },
+    { id: "e22", name: "Andre", age: 21 },
   ];
 
   const [usersList, setUsersList] = useState(users);

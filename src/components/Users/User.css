@@ -1,0 +1,13 @@
+.user {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 1rem 0rem;
+  border: solid 1px #cccccc;
+}
+
+h2.user-data {
+  margin: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
